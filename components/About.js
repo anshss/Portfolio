@@ -3,6 +3,7 @@ import styles from '../styles/Component.module.scss'
 export default function About() {
   return (
     <div className={styles.about}>
+      <h2>01/ &nbsp; &nbsp; About</h2>
       <p>
         I'm Ansh Saxena, an 18-year-old computer science programmer. I love to
         code in my free time. I have been in development since the last year

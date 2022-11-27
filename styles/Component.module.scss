@@ -1,0 +1,68 @@
+.navbar {
+    height: 10vh;
+    display: flex;
+
+    p{
+        margin-right: 2rem;
+    }
+}
+
+
+
+.hero {
+    height: 100vh;
+}
+
+
+
+.about {
+    height: 100vh;
+    margin: 0 10rem;
+    
+    p {
+        width: 80%;
+        font-size: 180%;
+        line-height: 2.4rem;
+    }
+}
+
+
+
+.projects {
+    margin: 0 10rem;
+    
+    .block {
+        display: flex;
+        height: 100vh;
+        // flex-direction: column;
+        gap: 8rem;
+
+        .image {
+            width: 100%;
+            height: 390px;
+        }
+        
+        .text {}
+
+        h3{
+            font-size: 200%;
+        }
+
+        p {
+            font-size: 120%;
+            margin-top: 4rem;
+            // width: 90%;
+        }
+
+        .btn {
+            margin-top: 0rem;
+            color: rgb(54, 54, 219)
+        }
+    }
+}
+
+
+
+.footer {
+    height: 20vh;
+}

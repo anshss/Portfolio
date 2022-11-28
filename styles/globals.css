@@ -6,8 +6,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Montserrat', sans-serif;;
-  /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
+  scroll-behavior: smooth;
 }
 
 a {
@@ -26,5 +25,11 @@ a {
   body {
     color: white;
     background: black;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  body{
+      display: none;
   }
 }

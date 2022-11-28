@@ -3,11 +3,12 @@ import About from "../components/About";
 import Projects from "../components/projects";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import styles from '../styles/Component.module.scss'
 
 export default function Home() {
   return (
-    <div>
-      <Navbar />
+    <div className={styles.home}>
+      {/* <Navbar /> */}
       <Hero />
       <About />
       <Projects />

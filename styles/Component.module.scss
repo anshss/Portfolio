@@ -1,3 +1,30 @@
+
+.hoverUnderline {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .hoverUnderline::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.50s ease-out;
+  }
+  
+  .hoverUnderline:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+
+
+
 .navbar {
     height: 10vh;
     margin: 0 10rem;
@@ -32,7 +59,8 @@
     h2 {
         font-size: 200%;
         margin-top: -1rem;
-        color: rgb(182, 182, 182);
+        color: rgb(227, 51, 51);
+        // color: rgb(182, 182, 182);
     }
 }
 
@@ -93,5 +121,24 @@
 
 
 .footer {
+    margin: 0 10rem;
     height: 20vh;
+    display: flex;
+    align-items: center;
+    gap: 25%;
+    // flex-direction: column;
+    // justify-content: center;
+
+
+    .icons > * {
+        margin-right: 1.8rem;
+
+        :hover {
+            color: rgb(50, 50, 203);
+        } 
+    }
+
+    p {
+        font-size: 200%;
+    }
 }

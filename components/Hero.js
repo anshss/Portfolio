@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <div className={styles.hero} id="hero">
       <Fade bottom>
-        <h1>Hello, I'm Ansh</h1>
+        <h1>Hello, I&apos;m Ansh</h1>
         <h2>
           <TextLoop interval={100}>
             <span className={styles.domain}>Blockchain</span>

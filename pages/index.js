@@ -1,6 +1,6 @@
 import Hero from "../components/Hero";
 import About from "../components/About";
-import Projects from "../components/projects";
+import Projects from "../components/Projects";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import styles from '../styles/Component.module.scss'

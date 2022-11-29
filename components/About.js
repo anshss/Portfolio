@@ -8,6 +8,7 @@ export default function About() {
     'React',
     'Next',
     'Git',
+    'Node.js',
     'Solidity',
     'Ether.js',
     'IPFS',

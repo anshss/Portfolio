@@ -15,9 +15,12 @@
     "@mui/material": "^5.10.15",
     "next": "13.0.5",
     "react": "18.2.0",
+    "react-burger-menu": "^3.0.8",
     "react-dom": "18.2.0",
     "react-reveal": "^1.2.2",
     "react-text-loop": "^2.3.0",
+    "react3dtagcloud": "^0.2.2",
+    "react3dtagcloud_withcolor": "^1.0.3",
     "sass": "^1.56.1"
   },
   "devDependencies": {

@@ -51,7 +51,7 @@ export default function Projecs() {
       </div>
 
       <div className={styles.block}>
-        <img src="react-portfolio.png" className={styles.image} />
+        <img src="simula.png" className={styles.image} />
         <Fade right>
           <div className={styles.text}>
             <h3>Simula</h3>
@@ -89,7 +89,7 @@ export default function Projecs() {
             </Link>
           </div>
         </Fade>
-        <img src="react-portfolio.png" className={styles.image} />
+        <img src="newee.png" className={styles.image} />
       </div>
 
       <div className={styles.block}>

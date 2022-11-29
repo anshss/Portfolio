@@ -26,6 +26,24 @@ $red: rgb(227, 51, 51);
 
 
 
+.tagcloud{
+    // position: absolute;
+    // left: 65rem;
+    // top: 14rem;
+    display: none;
+    animation: fadeIn 1s 2.8s;
+    animation-fill-mode: backwards;
+    height: 6rem;
+    width: 6rem;
+    margin-top: 18rem;
+    margin-left: 15rem;
+  }
+
+
+
+//   -----------
+
+
 .navbar {
     height: 10vh;
     margin: 0 10rem;
@@ -58,7 +76,6 @@ $red: rgb(227, 51, 51);
 
     h1 {
         font-size: 500%;
-        // font-weight: 500;
     }
 
     h2 {
@@ -97,7 +114,6 @@ $red: rgb(227, 51, 51);
     .block {
         display: flex;
         height: 100vh;
-        // flex-direction: column;
         gap: 8rem;
 
         .image {
@@ -137,9 +153,6 @@ $red: rgb(227, 51, 51);
     display: flex;
     align-items: center;
     gap: 25%;
-    // flex-direction: column;
-    // justify-content: center;
-
 
     .icons > * {
         margin-right: 1.8rem;
@@ -155,3 +168,85 @@ $red: rgb(227, 51, 51);
 }
 
 
+
+@media only screen and (max-width: 1440px) {
+    .projects{
+
+        .block{
+            height: 110vh;
+            flex-direction: column;
+
+            .image {
+                // display: none;
+            }
+            
+            .text {
+                order: 1;
+            }
+        }
+    }
+
+    .footer {
+        gap: 20%;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+
+    .navbar {
+        margin: 0 5rem;
+        width: 150%;
+
+        .sidebtns > a {
+            display: none;
+        }
+
+        .sidebtns > a:nth-child(4) {
+            display: block;
+        }
+    }
+
+    .home {
+        width: 200%;
+    }
+    
+    .hero {
+        height: 150vh;
+        
+        h1 {
+            font-size: 400%;
+        }
+    }
+
+    .about {
+        height: 180vh;
+        margin: 0rem 5rem;
+        
+        p {
+            width: 100%;
+        }
+        
+        .tagcloud {
+            display: block;
+        }
+    }
+
+    .projects {
+        // margin-bottom: 10vh;
+        margin: 0rem 5rem;
+        
+        .block {
+            margin-top: 5rem;
+            margin-bottom: 3rem;
+        }
+    }
+
+    .footer {
+        margin: 0 5rem;
+        gap: 10%;
+        
+        p {
+            font-size: 100%;
+        }
+    }
+}

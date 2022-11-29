@@ -22,14 +22,15 @@ a {
   html {
     color-scheme: dark;
   }
+  
   body {
     color: white;
-    background: black;
+    /* background: navy; */
   }
 }
 
 @media only screen and (max-width: 1440px) {
   body{
-      display: none;
+      /* display: none; */
   }
 }

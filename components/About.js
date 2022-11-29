@@ -1,6 +1,21 @@
 import styles from '../styles/Component.module.scss'
+import TagCloud from 'react3dtagcloud'
 
 export default function About() {
+  const tagName = [
+    'Javscript',
+    'SASS',
+    'React',
+    'Next',
+    'Git',
+    'Solidity',
+    'Ether.js',
+    'IPFS',
+    'Chainlink',
+    'Moralis',
+    'Lens',
+  ]
+
   return (
     <div className={styles.about} id="about">
       <h2>01/ &nbsp; &nbsp; About</h2>
@@ -14,6 +29,11 @@ export default function About() {
         diverse fields give me a fresh perspective on industries, people, and
         life.
       </p>
+
+      <div className={styles.tagcloud}>
+        <TagCloud tagName={tagName} />
+      </div>
+
     </div>
   )
 }

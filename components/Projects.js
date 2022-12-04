@@ -6,9 +6,9 @@ export default function Projecs() {
   return (
     <div className={styles.projects} id="projects">
       <h2>02/ &nbsp; &nbsp; Works</h2>
-      <div className={styles.block}>
-        <img src="gum3road.png" className={styles.image} />
-        <Fade right>
+      <Fade right>
+        <div className={styles.block}>
+          <img src="gum3road.png" className={styles.image} />
           <div className={styles.text}>
             <h3>Gum3road</h3>
             <p>
@@ -25,11 +25,11 @@ export default function Projecs() {
             </Link>
             <p className={styles.hackathon}>Hackathon 🏆</p>
           </div>
-        </Fade>
-      </div>
+        </div>
+      </Fade>
 
-      <div className={styles.block}>
-        <Fade left>
+      <Fade left>
+        <div className={styles.block}>
           <div className={styles.text}>
             <h3>Agora</h3>
             <p>
@@ -46,13 +46,13 @@ export default function Projecs() {
             </Link>
             <p className={styles.hackathon}>Hackathon 🏆</p>
           </div>
-        </Fade>
-        <img src="agora.png" className={styles.image} />
-      </div>
+          <img src="agora.png" className={styles.image} />
+        </div>
+      </Fade>
 
-      <div className={styles.block}>
-        <img src="simula.png" className={styles.image} />
-        <Fade right>
+      <Fade right>
+        <div className={styles.block}>
+          <img src="simula.png" className={styles.image} />
           <div className={styles.text}>
             <h3>Simula</h3>
             <p>
@@ -70,11 +70,11 @@ export default function Projecs() {
             </Link>
             <p className={styles.hackathon}>Hackathon 🏆</p>
           </div>
-        </Fade>
-      </div>
+        </div>
+      </Fade>
 
-      <div className={styles.block}>
-        <Fade left>
+      <Fade left>
+        <div className={styles.block}>
           <div className={styles.text}>
             <h3>Newee</h3>
             <p>
@@ -89,13 +89,13 @@ export default function Projecs() {
               </p>
             </Link>
           </div>
-        </Fade>
-        <img src="newee.png" className={styles.image} />
-      </div>
+          <img src="newee.png" className={styles.image} />
+        </div>
+      </Fade>
 
-      <div className={styles.block}>
-        <img src="react-portfolio.png" className={styles.image} />
-        <Fade right>
+      <Fade right>
+        <div className={styles.block}>
+          <img src="react-portfolio.png" className={styles.image} />
           <div className={styles.text}>
             <h3>React Portfolio</h3>
             <p>
@@ -110,11 +110,11 @@ export default function Projecs() {
               </p>
             </Link>
           </div>
-        </Fade>
-      </div>
+        </div>
+      </Fade>
 
-      <div className={styles.block}>
-        <Fade left>
+      <Fade left>
+        <div className={styles.block}>
           <div className={styles.text}>
             <h3>Newsletter</h3>
             <p>
@@ -129,9 +129,9 @@ export default function Projecs() {
               </p>
             </Link>
           </div>
-        </Fade>
-        <img src="newsletter.png" className={styles.image} />
-      </div>
+          <img src="newsletter.png" className={styles.image} />
+        </div>
+      </Fade>
     </div>
   )
 }

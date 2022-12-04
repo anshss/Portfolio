@@ -35,7 +35,7 @@ $red: rgb(227, 51, 51);
     animation-fill-mode: backwards;
     height: 6rem;
     width: 6rem;
-    margin-top: 18rem;
+    margin-top: 20rem;
     margin-left: 15rem;
   }
 
@@ -53,6 +53,10 @@ $red: rgb(227, 51, 51);
     
     .hoverUnderline::after {
         background-color: white;
+    }
+    
+    p {
+        font-size: 130%;
     }
 
     .sidebtns{
@@ -75,11 +79,11 @@ $red: rgb(227, 51, 51);
     margin-top: -10vh;
 
     h1 {
-        font-size: 500%;
+        font-size: 600%;
     }
 
     h2 {
-        font-size: 200%;
+        font-size: 250%;
         margin-top: -1rem;
         .domain {
             color: $red;
@@ -92,12 +96,17 @@ $red: rgb(227, 51, 51);
 .about {
     height: 100vh;
     margin: 0 10rem;
+    padding-top: 10vh;
+
+    h2 {
+        font-size: 200%;
+        margin-bottom: 5rem;
+    }
     
     p {
-        margin-top: 4rem;
-        width: 80%;
-        font-size: 180%;
-        line-height: 2.4rem;
+        width: 70%;
+        font-size: 200%;
+        line-height: 3rem;
     }
 }
 
@@ -105,15 +114,16 @@ $red: rgb(227, 51, 51);
 
 .projects {
     margin: 0 10rem;
+    padding-top: 10vh;
     
     h2 {
-        margin-bottom: 4rem;
-        
+        font-size: 200%;
+        margin-bottom: 6.5rem;
     }
 
     .block {
         display: flex;
-        height: 100vh;
+        margin-bottom: 20rem;
         gap: 8rem;
 
         .image {
@@ -194,8 +204,12 @@ $red: rgb(227, 51, 51);
 @media only screen and (max-width: 850px) {
 
     .navbar {
-        margin: 0 5rem;
-        width: 150%;
+        margin: 1rem 3rem;
+        width: 180%;
+
+        p {
+            font-size: 180%;
+        }
 
         .sidebtns > a {
             display: none;
@@ -211,15 +225,18 @@ $red: rgb(227, 51, 51);
     }
     
     .hero {
-        height: 150vh;
+        height: 140vh;
         
         h1 {
-            font-size: 400%;
+            font-size: 500%;
+        }
+        h2 > * {
+            font-size: 120%;
         }
     }
 
     .about {
-        height: 180vh;
+        height: 230vh;
         margin: 0rem 5rem;
         
         p {
@@ -232,12 +249,16 @@ $red: rgb(227, 51, 51);
     }
 
     .projects {
-        // margin-bottom: 10vh;
         margin: 0rem 5rem;
+
         
         .block {
             margin-top: 5rem;
-            margin-bottom: 3rem;
+            
+            p {
+                font-size: 150%;
+                line-height: 2rem;
+            }
         }
     }
 
@@ -246,7 +267,7 @@ $red: rgb(227, 51, 51);
         gap: 10%;
         
         p {
-            font-size: 100%;
+            font-size: 170%;
         }
     }
 }

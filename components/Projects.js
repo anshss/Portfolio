@@ -68,6 +68,7 @@ export default function Projecs() {
                 See project
               </p>
             </Link>
+            <p className={styles.hackathon}>Hackathon 🏆</p>
           </div>
         </Fade>
       </div>

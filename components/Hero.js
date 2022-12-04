@@ -4,8 +4,8 @@ import TextLoop from 'react-text-loop'
 
 export default function Hero() {
   return (
-    // <Fade bottom>
     <div className={styles.hero} id="hero">
+      {/* <Fade bottom> */}
         <h1>Hello, I&apos;m Ansh</h1>
         <h2>
           <TextLoop interval={2000}>
@@ -16,7 +16,7 @@ export default function Hero() {
           </TextLoop>
           &nbsp;<span>Developer</span>
         </h2>
+      {/* </Fade> */}
     </div>
-    // </Fade>
   )
 }

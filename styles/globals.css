@@ -1,11 +1,31 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+@font-face {
+  font-family: MontserratFont;
+  src: url(../public/Montserrat-Regular.otf);
+}
+
+
+body {
+  -webkit-animation-delay: 0.1s;
+  -webkit-animation-name: fontfix;
+  -webkit-animation-duration: 0.1s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes fontfix {
+  from { opacity: 1; }
+  to   { opacity: 1; }
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Montserrat', sans-serif;;
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: MontserratFont;
   scroll-behavior: smooth;
 }
 
@@ -25,12 +45,6 @@ a {
   
   body {
     color: white;
-    /* background: navy; */
-  }
-}
-
-@media only screen and (max-width: 1440px) {
-  body{
-      /* display: none; */
+    background: black;
   }
 }

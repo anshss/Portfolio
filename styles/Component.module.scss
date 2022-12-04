@@ -142,8 +142,9 @@ $red: rgb(227, 51, 51);
         }
 
         p {
-            font-size: 120%;
+            font-size: 140%;
             margin-top: 3.5rem;
+            line-height: 1.8rem;
             // width: 90%;
         }
 
@@ -231,7 +232,7 @@ $red: rgb(227, 51, 51);
             font-size: 500%;
         }
         h2 > * {
-            font-size: 120%;
+            font-size: 110%;
         }
     }
 
@@ -250,10 +251,11 @@ $red: rgb(227, 51, 51);
 
     .projects {
         margin: 0rem 5rem;
-
+        // max-width: 100vw;
         
         .block {
             margin-top: 5rem;
+            // max-width: 100vw;
             
             p {
                 font-size: 150%;

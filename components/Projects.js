@@ -8,17 +8,18 @@ export default function Projecs() {
       <h2>02/ &nbsp; &nbsp; Works</h2>
       <Fade right>
         <div className={styles.block}>
-          <img src="gum3road.png" className={styles.image} />
+          <img src="simula.png" className={styles.image} />
           <div className={styles.text}>
-            <h3>Gum3road</h3>
+            <h3>Simula</h3>
             <p>
-              This is a platform for digital creators to mint and sell their
-              content. These files are then available for purchase by other
-              users. Users can login using their web2 socials like Google,
-              Facebook etc. They can mint any file as ERC1155 token and set its
-              attributes like supply, price and coverimage
+              Get a utility for it at our platform, either giving it as
+              collateral and taking some amount in stable coins or lending it to
+              us and enjoying some interest monthly. Users can stake their Nfts
+              by lending and claim regular interest on them. Users can deposit
+              their Nfts as collateral and take 40% of USDT. Users can become
+              DAO member to creat, vote on proposal.
             </p>
-            <Link href="https://devpost.com/software/gum3road">
+            <Link href="https://github.com/anshss/hackfall22">
               <p className={`${styles.btn} ${styles.hoverUnderline}`}>
                 See project
               </p>
@@ -51,27 +52,26 @@ export default function Projecs() {
       </Fade>
 
       <Fade right>
-        <div className={styles.block}>
-          <img src="simula.png" className={styles.image} />
-          <div className={styles.text}>
-            <h3>Simula</h3>
-            <p>
-              Get a utility for it at our platform, either giving it as
-              collateral and taking some amount in stable coins or lending it to
-              us and enjoying some interest monthly. Users can stake their Nfts
-              by lending and claim regular interest on them. Users can deposit
-              their Nfts as collateral and take 40% of USDT. Users can become
-              DAO member to creat, vote on proposal.
+      <div className={styles.block}>
+        <img src="gum3road.png" className={styles.image} />
+        <div className={styles.text}>
+          <h3>Gum3road</h3>
+          <p>
+            This is a platform for digital creators to mint and sell their
+            content. These files are then available for purchase by other
+            users. Users can login using their web2 socials like Google,
+            Facebook etc. They can mint any file as ERC1155 token and set its
+            attributes like supply, price and coverimage
+          </p>
+          <Link href="https://devpost.com/software/gum3road">
+            <p className={`${styles.btn} ${styles.hoverUnderline}`}>
+              See project
             </p>
-            <Link href="https://github.com/anshss/hackfall22">
-              <p className={`${styles.btn} ${styles.hoverUnderline}`}>
-                See project
-              </p>
-            </Link>
-            <p className={styles.hackathon}>Hackathon 🏆</p>
-          </div>
+          </Link>
+          <p className={styles.hackathon}>Hackathon 🏆</p>
         </div>
-      </Fade>
+      </div>
+    </Fade>
 
       <Fade left>
         <div className={styles.block}>

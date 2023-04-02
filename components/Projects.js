@@ -6,6 +6,7 @@ export default function Projecs() {
   return (
     <div className={styles.projects} id="projects">
       <h2>02/ &nbsp; &nbsp; Works</h2>
+
       <Fade right>
         <div className={styles.block}>
           <img src="simula.png" className={styles.image} />
@@ -73,8 +74,31 @@ export default function Projecs() {
       </div>
     </Fade>
 
-      <Fade left>
+    <Fade left>
+      <div className={styles.block}>
+        <div className={styles.text}>
+          <h3>The Journals DAO</h3>
+          <p>
+            This is a platform for digital creators to mint and sell their
+            content. These files are then available for purchase by other
+            users. Users can login using their web2 socials like Google,
+            Facebook etc. They can mint any file as ERC1155 token and set its
+            attributes like supply, price and coverimage
+          </p>
+          <Link href="https://ethglobal.com/showcase/the-journals-dao-6rzrn">
+            <p className={`${styles.btn} ${styles.hoverUnderline}`}>
+              See project
+            </p>
+          </Link>
+          <p className={styles.hackathon}>Hackathon 🏆</p>
+        </div>
+        <img src="peer.png" className={styles.image} />
+      </div>
+    </Fade>
+
+      <Fade right>
         <div className={styles.block}>
+          <img src="newee.png" className={styles.image} />
           <div className={styles.text}>
             <h3>Newee</h3>
             <p>
@@ -89,13 +113,11 @@ export default function Projecs() {
               </p>
             </Link>
           </div>
-          <img src="newee.png" className={styles.image} />
         </div>
       </Fade>
 
-      <Fade right>
+      <Fade left>
         <div className={styles.block}>
-          <img src="react-portfolio.png" className={styles.image} />
           <div className={styles.text}>
             <h3>React Portfolio</h3>
             <p>
@@ -110,11 +132,13 @@ export default function Projecs() {
               </p>
             </Link>
           </div>
+          <img src="react-portfolio.png" className={styles.image} />
         </div>
       </Fade>
 
-      <Fade left>
+      <Fade right>
         <div className={styles.block}>
+          <img src="newsletter.png" className={styles.image} />
           <div className={styles.text}>
             <h3>Newsletter</h3>
             <p>
@@ -129,7 +153,6 @@ export default function Projecs() {
               </p>
             </Link>
           </div>
-          <img src="newsletter.png" className={styles.image} />
         </div>
       </Fade>
     </div>

@@ -21,7 +21,7 @@ export default function About() {
     <div className={styles.about} id="about">
       <h2>01/ &nbsp; &nbsp; About</h2>
       <p>
-        I&apos;m Ansh Saxena, an 18-year-old computer science programmer. I love to
+        I&apos;m Ansh Saxena, an 19-year-old computer science programmer. I love to
         code in my free time. I have been in development since the last year
         when I graduated my High School. I have explored various fields like
         solving data structures, competitive programming, web development,

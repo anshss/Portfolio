@@ -12,7 +12,7 @@ export default function Footer() {
                 <Link href='https://twitter.com/anshstwt'><TwitterIcon fontSize="large" /></Link>
                 <Link href='https://www.linkedin.com/in/anshss/'><LinkedInIcon fontSize="large" /></Link>
             </div>
-            <p>anshspvt@gmail.com</p>
+            <p>anshsaxena4190@gmail.com</p>
             <div className={styles.email}>
             </div>
         </div>
